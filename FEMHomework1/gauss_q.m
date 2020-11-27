@@ -23,6 +23,10 @@
 ## Author: 63002 <63002@DESKTOP-72PSU6T>
 ## Created: 2020-11-27
 
+% fx=@(x) x+sin(x) 
+% maybe can use this way to define a universal function;
+% and the input will be gauss_q(a,b,f);
+
 function F = gauss_q (a, b)
 
 r1=0.7745966692;
